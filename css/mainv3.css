@@ -1,0 +1,249 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font: 14px/1.35 sans-serif;
+	color: black;
+	min-width: 300px;
+}
+nav{
+	z-index: 102;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #31b0d5;
+	padding: 5px;
+	margin: 0px;
+}
+nav ul{
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	font-size: 16px;
+}
+nav li a {
+	display: inline;
+	padding: 8px;
+	margin: 0px 5px;
+	color: white;
+	text-decoration: none;
+}
+nav li a:hover {
+	background-color: white;
+}
+
+
+.contactButton{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 15px;
+	background-color: #31b0d5;
+	color: white;
+	width: 160px;
+	padding: 8px;
+	z-index: 101;
+
+}
+
+
+/*       PERFECT FOR ANY HERO USING A PIC*/
+/*.hero{
+	background:  linear-gradient(rgba(0,0,0,.6), rgba(100,100,100,.6)), url(../images/background1.jpg) no-repeat center top;
+	background-size: cover;
+	padding: 10%;
+	background-attachment: fixed;
+	border-top: 4px solid #063456;
+	border-bottom: 4px solid #063456;
+	text-align: center;
+	overflow: hidden;
+}*/
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: #054A91;
+	text-decoration: none;
+}
+
+#topBan {
+	margin-top: 54px;
+	text-align: center;
+	color: white;
+	padding: 2%;
+	/*border-top: 4px solid #DBE4EE;*/
+	background-color: #31b0d5;
+}
+#topBan h1{
+	font-size: 5.5vw;
+	margin: 10px;
+}
+#topBan h2{
+	font-size: 2.5vw;
+	font-weight: lighter;
+}
+.profilePic {
+	border-radius: 50%;
+	width: 19%;
+}
+.downArrow{
+	width: 50px;
+	margin-top: 30px;
+}
+
+#middleBan {
+	padding: 5% 15%;
+	background-color: white;
+	border-top: 4px solid #DBE4EE;
+}
+#middleBan h1{
+	text-align: center;
+	color: #31b0d5;
+	font-weight: lighter;
+}
+#middleBan p{
+	font-weight: lighter;
+	line-height: 2;
+	font-size: 1.1rem;
+}
+#underBan {
+	/*padding: 0px;*/
+	/*margin: 0px;*/
+	border-top: 4px solid #DBE4EE;
+	background-color: white;
+	text-align: center;
+	padding: 5%;
+	/*margin-top: 10px;*/
+}
+
+#underBan h1{
+	text-align: center;
+	color: #31b0d5;
+	font-weight: lighter;
+	margin-bottom: 50px;
+}
+.card-text{
+	font-size: .75rem;
+}
+
+
+
+#skillsBan{
+	border-top: 4px solid #DBE4EE;
+	background-color: white;
+	padding: 5%;
+}
+#skillsBan h1{
+	text-align: center;
+	color: #31b0d5;
+	font-weight: lighter;
+}
+
+
+
+
+.skillContain {
+  position: relative;
+  width: 12%;
+  display: inline-block;
+  margin: 2%;
+}
+
+.skillPic {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.skillContain:hover .skillPic {
+  opacity: 0.3;
+}
+
+.skillContain:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #31b0d5;
+  color: white;
+  font-size: 16px;
+  padding: 2%;
+}
+
+
+footer{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	margin-top: 5px;
+	background: #31b0d5;
+	border-top: 4px solid #DBE4EE;
+
+}
+footer h1{
+	/*background: skyblue;*/
+	letter-spacing: 0rem;
+	font-weight: 300;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: .9rem; 
+	padding: 20px;	
+	color: white;
+	/*box-shadow: 0 2px 2px rgba(100,100,100, 0.95), inset 0 1px 1px rgba(100,100,100, 0.95);*/
+	z-index: 10;
+	line-height: 1.3rem;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+}
+footer a:hover{
+	color: black;
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+@media (min-width: 767px) {
+
+
+}
+
+
+
+
+@media (max-width: 766px) {
+
+
+}

@@ -1,5 +1,6 @@
 html {
-  scroll-behavior: smooth;
+	/*find webkits for these*/
+	scroll-behavior: smooth;
 }
 body{
 	font: 14px/1.35 sans-serif;

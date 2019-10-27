@@ -5,7 +5,7 @@ html {
 body{
 	font: 14px/1.35 sans-serif;
 	color: black;
-	min-width: 300px;
+	/*min-width: 300px;*/
 }
 nav{
 	z-index: 102;
@@ -23,7 +23,7 @@ nav ul{
 }
 nav li{
 	display: inline-block;
-	font-size: 16px;
+	font-size: 2.2vw;
 }
 nav li a {
 	display: inline;
@@ -126,6 +126,22 @@ a:hover{
 }
 
 #underBan h1{
+	text-align: center;
+	color: #31b0d5;
+	font-weight: lighter;
+	margin-bottom: 50px;
+}
+#music {
+	/*padding: 0px;*/
+	/*margin: 0px;*/
+	border-top: 4px solid #DBE4EE;
+	background-color: white;
+	text-align: center;
+	padding: 5%;
+	/*margin-top: 10px;*/
+}
+
+#music h1{
 	text-align: center;
 	color: #31b0d5;
 	font-weight: lighter;
@@ -239,12 +255,15 @@ footer a:hover{
 @media (min-width: 767px) {
 
 
+
 }
 
 
 
 
 @media (max-width: 766px) {
-
+nav{
+	width: auto;
+}
 
 }

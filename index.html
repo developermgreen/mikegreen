@@ -6,6 +6,7 @@
 	<link rel="icon" type="png" href="images/MGLogo.PNG">
   <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style type="text/css">
     body{
       font-family: 'Staatliches', cursive;
@@ -54,11 +55,37 @@
       background-color: white;
       font-weight: 500;
     }
+    nav{
+      position: fixed;
+      bottom: 20px;
+      left: calc(50% - 107px);
+      padding:10px;
+      text-align: center;
+      background-color: #31b0d5; 
+      border-radius: 6px;
+    }
+    nav a{
+      text-decoration:none;
+      color: white;
+      padding: 4px; 
+    }
+    nav a:hover{
+      color: red;
+      background-color: white;
+      color: #31b0d5;
+    }
+
   </style>
 	<title>Mike Green</title>
 </head>
 
 <body>
+
+  <nav>
+    <a href="#resume">Resume</a>
+    <a href="#cover">Cover Letter</a>
+    <a href="#reccomendation">Reference</a>
+  </nav>
 
   <header>
     <h1>Michael Green</h1>
@@ -66,10 +93,12 @@
   </header>
 
   <div class="pdf">
-    <h1 style="margin-top: 0px">Reccomendation Letter:</h1>
+    <h1 style="margin-top: 0px" id="resume">Resume:</h1>
+    <embed class="content" src="JobStuff/Copy_Michael_Green_Resume.pdf" height="800px"/>
+    <h1 id="cover">Cover Letter:</h1>
+    <embed class="content" src="JobStuff/MichaelGreen_CoverLetter.pdf" height="800px"/>
+    <h1 id="reccomendation">Reccomendation Letter:</h1>
     <embed class="content" src="JobStuff/Reference.pdf" height="800px"/>
-    <h1>Resume:</h1>
-    <embed class="content" src="JobStuff/JobResume.pdf" height="800px"/>
   </div>
 
 </body>
